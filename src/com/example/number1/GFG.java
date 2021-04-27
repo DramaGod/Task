@@ -47,9 +47,33 @@ public class GFG {
         int s = 3;
         System.out.println("Number of ways = " + countVariants.countWays(s));
 
+        ////////////////// sixth task
 
+        MyDataStructure myDS = new MyDataStructure();
+        myDS.add(1);
+        myDS.add(2);
+        myDS.add(3);
+        myDS.add(4);
+        myDS.add(5);
+        System.out.println(myDS.arr.toString());
 
+        myDS.remove(3);
+        System.out.println(myDS.arr.toString());
+
+        myDS.remove(2);
+        System.out.println(myDS.arr.toString());
+
+        myDS.remove(1);
+        System.out.println(myDS.arr.toString());
+
+        myDS.remove(4);
+        System.out.println(myDS.arr.toString());
+
+        myDS.remove(5);
+        System.out.println(myDS.arr.toString());
     }
 
 
 }
+
+
